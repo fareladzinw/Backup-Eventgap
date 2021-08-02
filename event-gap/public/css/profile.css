@@ -1,0 +1,11 @@
+
+ .card .card-header
+ {
+     background-color: #72C3BD;
+     border-bottom-left-radius: 10%;
+     border-bottom-right-radius: 10%;
+ }
+
+ .card .card-body{
+     color: black !important;
+ }

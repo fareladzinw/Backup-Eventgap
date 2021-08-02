@@ -1,0 +1,1 @@
+[06-Jan-2021 17:14:43 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Request as Request because the name is already in use in /home/eventgap/public_html/event-gap/app/Http/Controllers/UserController.php on line 16

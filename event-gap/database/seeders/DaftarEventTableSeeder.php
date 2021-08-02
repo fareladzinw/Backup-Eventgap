@@ -1,0 +1,291 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
+
+class DaftarEventTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('daftar_events')->insert([
+            [
+                'eventUserId' => 1,
+                'sponsorUserId' => null,
+                'namaEvent' => 'Lomba Menulis Cerpen',
+                'kategoriId' => 1,
+                'deskripsi' => 'Dapatkan uang tunai jutaan rupiah,  ikuti juga kelas mentoring yang kami sediakan.',
+                'lokasi' => 'Online',
+                'dateTimeFrom' => Carbon::now(),
+                'dateTimeUntil' => Carbon::now(),
+                'waktu' => null,
+                'penyelenggara' => 'Catatan Pena',
+                'isFree' => 1,
+                'cp' => '@CATATANPENAOFFICIAL',
+                'gambar' => "pendidikan_1.png"
+            ],
+            [
+                'eventUserId' => 1,
+                'sponsorUserId' => null,
+                'namaEvent' => 'Student Compotition 2020',
+                'kategoriId' => 1,
+                'deskripsi' => 'Ikuti berbagai lomba, diantaranya lomba infografis lingkungan, lomba esai ilmiah, lomba esai lingkungan, dan lomba pembantuan kualitas air, dapatkan hadiah jutaan rupiah!!',
+                'lokasi' => 'Malang',
+                'dateTimeFrom' => Carbon::now(),
+                'dateTimeUntil' => Carbon::now(),
+                'waktu' => null,
+                'penyelenggara' => 'JKPKA',
+                'isFree' => 1,
+                'cp' => '@perumjasatirta1',
+                'gambar' => "Pendidikan_2.png"
+            ],
+            [
+                'eventUserId' => 1,
+                'sponsorUserId' => null,
+                'namaEvent' => 'DigiSocialfest 2020',
+                'kategoriId' => 1,
+                'deskripsi' => 'SMK Do Well Digisocial Fest 2020, Sebuah ajang pembuktian  bagi anank anak SMK unutk berkarya dan berinovasi.',
+                'lokasi' => 'Online',
+                'dateTimeFrom' => Carbon::now(),
+                'dateTimeUntil' => Carbon::now(),
+                'waktu' => null,
+                'penyelenggara' => 'Telkom Indonesia',
+                'isFree' => 1,
+                'cp' => '@Digisocialfest',
+                'gambar' => "Pendidikan_3.png"
+            ],
+            [
+                'eventUserId' => 1,
+                'sponsorUserId' => null,
+                'namaEvent' => 'Donor Darah',
+                'kategoriId' => 2,
+                'deskripsi' => 'Bagi para donor darah akan mendapat tiket gratis ke Malang Night Paradise.',
+                'lokasi' => 'PMI Kota Malang Oro-Oro Dowo',
+                'dateTimeFrom' => Carbon::now(),
+                'dateTimeUntil' => Carbon::now(),
+                'waktu' => '12.00 - 20.00 WIB',
+                'penyelenggara' => 'PMI',
+                'isFree' => 1,
+                'cp' => '@dodar',
+                'gambar' => "Kesehatan_1.png"
+            ],
+            [
+                'eventUserId' => 1,
+                'sponsorUserId' => null,
+                'namaEvent' => 'Dokter Onkologi Ajarkan Cara Lawan Kanker Via Vidio Coference',
+                'kategoriId' => 2,
+                'deskripsi' => 'Banyak penderita kanker di Indonesia yang meninggal akibat menyerah melakukan pengobatan yang telah dianjurkan. Salah satu penyebabnya adalah tidak kuat dengan penderitaan efek samping pengobatan, komplikasi akibat efek samping pengobatan, dan lain-lain.',
+                'lokasi' => 'Oura Cafe Malang',
+                'dateTimeFrom' => Carbon::now(),
+                'dateTimeUntil' => Carbon::now(),
+                'waktu' => '14.00 - 17.00 WIB',
+                'penyelenggara' => 'Moderen Cancer Hospital',
+                'isFree' => 1,
+                'cp' => '@infokanker',
+                'gambar' => "Kesehatan_2.png"
+            ],
+            [
+                'eventUserId' => 1,
+                'sponsorUserId' => null,
+                'namaEvent' => 'Donor Darah',
+                'kategoriId' => 2,
+                'deskripsi' => 'HMJ Kesmas Univ Negeri Malang gelar seminar Nasional dengan tema “Primary Health Care sebagai tonggak peningkatan derafat Kesehatan masyarakat: Bersama Kita Bisa”, buruan daftar!',
+                'lokasi' => 'Aula FIP Kampus 2 Universitas Negeri Malang',
+                'dateTimeFrom' => Carbon::now(),
+                'dateTimeUntil' => Carbon::now(),
+                'waktu' => '07.15 WIB',
+                'penyelenggara' => 'HMJ KESMAS FIK UM',
+                'isFree' => 0,
+                'cp' => '@seminas',
+                'gambar' => "kesehatan_3.png"
+            ],
+            [
+                'eventUserId' => 1,
+                'sponsorUserId' => null,
+                'namaEvent' => 'DBL Malang 2019',
+                'kategoriId' => 3,
+                'deskripsi' => 'Developmental Basketball League (DBL),  adalah sebuah kompetisi liga bola basket pelajar SMP dan SMA terbesar di Indonesia yang diprakarsai oleh Azrul Ananda (founder). DBL ada di 30 kota, 22 provinsi di seluruh Indonesia, melibatkan 1,5 juta anak muda setiap tahunnya. Lebih dari 1.200 tim dan lebih dari 40 ribu orang jadi peserta, melibatkan lebih dari 750 sekolah. ',
+                'lokasi' => 'Malang',
+                'dateTimeFrom' => Carbon::now(),
+                'dateTimeUntil' => Carbon::now(),
+                'waktu' => '15.00-20.00 WIB',
+                'penyelenggara' => 'PT. Deteksi Basket Lintas Indonesia',
+                'isFree' => 0,
+                'cp' => '@dblmalang',
+                'gambar' => "olahraga_1.png"
+            ],
+            [
+                'eventUserId' => 1,
+                'sponsorUserId' => null,
+                'namaEvent' => 'IFCUP',
+                'kategoriId' => 3,
+                'deskripsi' => 'Institut teknologi nasional malang volume 8, dapatkan total hadiah jutaan rupiah + sertifikat ( serta piala bergulir)',
+                'lokasi' => 'Lapangan Madala Tidar',
+                'dateTimeFrom' => Carbon::now(),
+                'dateTimeUntil' => Carbon::now(),
+                'waktu' => '15.00-18.00 WIB',
+                'penyelenggara' => 'ITN Malang',
+                'isFree' => 0,
+                'cp' => '08565289534',
+                'gambar' => "olahraga_2.png"
+            ],
+            [
+                'eventUserId' => 1,
+                'sponsorUserId' => null,
+                'namaEvent' => 'DBL Malang 2021',
+                'kategoriId' => 3,
+                'deskripsi' => 'Developmental Basketball League (DBL),  adalah sebuah kompetisi liga bola basket pelajar SMP dan SMA terbesar di Indonesia yang diprakarsai oleh Azrul Ananda (founder). DBL ada di 30 kota, 22 provinsi di seluruh Indonesia, melibatkan 1,5 juta anak muda setiap tahunnya. Lebih dari 1.200 tim dan lebih dari 40 ribu orang jadi peserta, melibatkan lebih dari 750 sekolah. ',
+                'lokasi' => 'Malang',
+                'dateTimeFrom' => Carbon::now(),
+                'dateTimeUntil' => Carbon::now(),
+                'waktu' => '13.00-17.00 WIB',
+                'penyelenggara' => 'Yamaha',
+                'isFree' => 0,
+                'cp' => '@dblmalang',
+                'gambar' => "olahraga_3.png"
+            ],
+            [
+                'eventUserId' => 1,
+                'sponsorUserId' => null,
+                'namaEvent' => 'Music Party',
+                'kategoriId' => 4,
+                'deskripsi' => 'Music party adalah event yang diselenggarakan oleh pemerintah dalam menyambut akhir corona, maka event yang diselenggarakan online ini sebagai penghibur anda diwaktu luang dengan music event online ini.',
+                'lokasi' => 'Malang',
+                'dateTimeFrom' => Carbon::now(),
+                'dateTimeUntil' => Carbon::now(),
+                'waktu' => '19.00 - 02.00 WIB',
+                'penyelenggara' => 'Aprilia Dwi Cristyana',
+                'isFree' => 0,
+                'cp' => '081334567890',
+                'gambar' => "hiburan_1.png"
+            ],
+            [
+                'eventUserId' => 1,
+                'sponsorUserId' => null,
+                'namaEvent' => 'PSCS (Pagelaran Seni Citra Smanti)',
+                'kategoriId' => 4,
+                'deskripsi' => '"Pagelaran Seni Citra Smanti (PSCS) merupakan kegiatan tahunan yang diadakan oleh siswa-siswi SMAN 3 Malang sejak tahun 1985 dengan konsep internal performance. Di tahun 2010 PSCS membawa suasana baru yang diperuntukkan untuk umum serta turut mengundang artis nasional. selama lebih dari 8 tahun siswa-siswi SMAN 3 Malang secara konsisten memberikan inovasi-inovasi baru ke dalam PSCS setiap tahunnya. Tahun ini kami akan mempersembahkan konsep baru berupa festival yang di dalamnya terdapat food festival, art performance, dan attraction section. PSCS 2019 dibawakan dengan konsep akulturasi Indonesia dan Meksiko dengan tema Dia y Noche (siang dan malam). Besar harapan kami bahwa PSCS 2019 menjadi fasilitas apresiasi seni yang berkesan untuk siswa-siswi SMAN 3 Malang pada khususnya dan menjadi inspirasi pentas seni untuk SMA di tingkat nasional pada umumnya. PSCS 2019 akan dilaksanakan pada 27-28 September 2019 di Lapangan Rampal Malang."',
+                'lokasi' => 'Lapangan Rampal Malang.',
+                'dateTimeFrom' => Carbon::now(),
+                'dateTimeUntil' => Carbon::now(),
+                'waktu' => '16.00 - 02.00 WIB',
+                'penyelenggara' => 'SMAN 3 MALANG',
+                'isFree' => 0,
+                'cp' => '@kalimayabhaskara',
+                'gambar' => "Hiburan_2.png"
+            ],
+            [
+                'eventUserId' => 1,
+                'sponsorUserId' => null,
+                'namaEvent' => 'Chemical Engineering Games',
+                'kategoriId' => 4,
+                'deskripsi' => 'Chemical Engineering Games 2018, daftar berkelompuk juga bisa loo.. dapat hadiah jutaan rupiah juga.',
+                'lokasi' => 'Uneversitas Surabaya Teggilis',
+                'dateTimeFrom' => Carbon::now(),
+                'dateTimeUntil' => Carbon::now(),
+                'waktu' => '16.00 - 02.00 WIB',
+                'penyelenggara' => 'Ubaya',
+                'isFree' => 0,
+                'cp' => '@cek.Ubaya',
+                'gambar' => "hiburan_3.png"
+            ],
+            [
+                'eventUserId' => 1,
+                'sponsorUserId' => null,
+                'namaEvent' => 'Kompek 23rd REDEFINE',
+                'kategoriId' => 5,
+                'deskripsi' => 'KOMPeK 23 akan mengambil tema “Mendefinisikan Ulang: Mendefinisikan Ulang Sektor Krusial Indonesia untuk Mengungguli Era yang Belum Pernah Ada Sebelumnya”. Dengan tema ini diharapkan dapat memberikan nilai tambah kepada masyarakat dan menambah wawasan tentang sektor-sektor penting di tengah pandemi ini.',
+                'lokasi' => 'Online',
+                'dateTimeFrom' => Carbon::now(),
+                'dateTimeUntil' => Carbon::now(),
+                'waktu' => '11.00-13.00 WIB',
+                'penyelenggara' => 'FEB Universitas Indonesia',
+                'isFree' => 1,
+                'cp' => '@kompekfebui',
+                'gambar' => "ekonomi_1.png"
+            ],
+            [
+                'eventUserId' => 1,
+                'sponsorUserId' => null,
+                'namaEvent' => 'UKM Webinar',
+                'kategoriId' => 5,
+                'deskripsi' => 'mblocspace berkolaborasi dengan UNS dan Kemenparekraf menyelenggarakan 2 kelas webinar dan 2 kelas virtual workshop dengan narasumber dan topik yang beragam akhir pekan ini!',
+                'lokasi' => 'Online',
+                'dateTimeFrom' => Carbon::now(),
+                'dateTimeUntil' => Carbon::now(),
+                'waktu' => '09.30 - 11.00 WIB',
+                'penyelenggara' => 'MBloc',
+                'isFree' => 1,
+                'cp' => '@ukMwebinar',
+                'gambar' => "ekonomi_2.png"
+            ],
+            [
+                'eventUserId' => 1,
+                'sponsorUserId' => null,
+                'namaEvent' => 'Job2Go Webinar',
+                'kategoriId' => 5,
+                'deskripsi' => 'Apa saja yang perlu dipersiapkan untuk dapat bekerja di luar jurusan kita? Temukan jawabannya di Webinar “How Your Educational Background Should Never Limit You” bersama Kinnard Benedict, tim Rekrutmen dari SF Group.',
+                'lokasi' => 'Online',
+                'dateTimeFrom' => Carbon::now(),
+                'dateTimeUntil' => Carbon::now(),
+                'waktu' => '10.00 - 12.00 WIB',
+                'penyelenggara' => 'Job2Go Indonesia',
+                'isFree' => 1,
+                'cp' => '@job2.goid',
+                'gambar' => "ekonomi_3.jpg"
+            ],
+            [
+                'eventUserId' => 1,
+                'sponsorUserId' => null,
+                'namaEvent' => 'Study Tour',
+                'kategoriId' => 6,
+                'deskripsi' => 'Perluas wawasan anda dan segarkan pengalaman anda di kota- kota besar, yaitu Bandung, Jakarta, dan Yogyakarta.',
+                'lokasi' => 'Malang',
+                'dateTimeFrom' => Carbon::now(),
+                'dateTimeUntil' => Carbon::now(),
+                'waktu' => '06.00 - sampai selesai',
+                'penyelenggara' => 'SMAN Bululawang',
+                'isFree' => 0,
+                'cp' => '@studytour17',
+                'gambar' => "Pariwisata_1.png"
+            ],
+            [
+                'eventUserId' => 1,
+                'sponsorUserId' => null,
+                'namaEvent' => 'Malang Kabupaten Expo 2019',
+                'kategoriId' => 6,
+                'deskripsi' => 'Dalam rangka memperkenalkan Potensi Unggulan dan sekaligus peringatan Hari Jadi Kabupaten Malang Ke 1.259 akan digelar Pameran Nasional MALANG KABUPATEN EXPO 2019. ',
+                'lokasi' => 'Kanjuruhan Kepanjen Malang',
+                'dateTimeFrom' => Carbon::now(),
+                'dateTimeUntil' => Carbon::now(),
+                'waktu' => '10.00 - 21.00 WIB',
+                'penyelenggara' => 'Pemerintahan Malang Kabupaten',
+                'isFree' => 1,
+                'cp' => '@beautifulmalang',
+                'gambar' => "pariwisata_2.png"
+            ],
+            [
+                'eventUserId' => 1,
+                'sponsorUserId' => null,
+                'namaEvent' => 'Malang Beach Festifal',
+                'kategoriId' => 6,
+                'deskripsi' => 'Malang Beach Festival - Kirab Budaya Hari jadi 1259 Kabupaten Malang - Acara Malang',
+                'lokasi' => 'Start dan Finish Jalur Lintas Barat Kepanjen Kabupaten Malang',
+                'dateTimeFrom' => Carbon::now(),
+                'dateTimeUntil' => Carbon::now(),
+                'waktu' => '13.00 - 22.20 WIB',
+                'penyelenggara' => 'Pemerintahan Malang Kabupaten',
+                'isFree' => 1,
+                'cp' => '@lintasbarat',
+                'gambar' => "pariwisata_3.png"
+            ],
+        ]);
+    }
+}

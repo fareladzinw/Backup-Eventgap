@@ -1,0 +1,46 @@
+.registration-form{
+	padding: 50px 0;
+}
+
+form h2{
+    color: #0C8195;
+    text-align: center;
+}
+
+.warp{
+    position:relative;
+}
+.vector{
+    position:absolute;
+}
+
+.registration-form .item{
+	border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+    border-color: transparent;
+    color:black;
+    background-color:#C4C4C4;
+}
+
+.registration-form .create-account{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+    .registration-form form{
+        padding: 50px 20px;
+    }
+
+    .registration-form .form-icon{
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+}
